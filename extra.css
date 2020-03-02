@@ -1,0 +1,736 @@
+.headblock {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index:60
+}
+
+.abdul {
+    margin:0 auto
+}
+
+.abdul-relative {
+    position:relative
+}
+
+.cov, .covall, .cov-upsell, .cov-upsell2, .cov-upsell3, .cov-upsell4, .cov-downsell, #loadingVideo, #cfs {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left:0
+}
+
+#loadingVideo {
+    background-image: url(/i/loading-video.gif);
+    background-size: cover;
+    z-index: 30;
+    background-color:#4a2b79
+}
+
+#cfs {
+    background-image: url(/i/video-sound.png);
+    background-size: cover;
+    z-index: 25;
+    display:none
+}
+
+.cov {
+    background-image: url(../i/video-cover.jpg);
+    background-size: cover;
+    z-index: 20 !important;
+    display:none
+}
+
+.cov-upsell {
+    background-image: url(../i/upsell-welcome.jpg);
+    background-size: cover;
+    z-index: 20 !important;
+    display:none
+}
+
+.cov-upsell2 {
+    background-image: url(../i/upsell-3.jpg);
+    background-size: cover;
+    z-index: 20 !important;
+    display:none
+}
+
+.cov-upsell3 {
+    background-image: url(../i/upsell-4.jpg);
+    background-size: cover;
+    z-index: 20 !important;
+    display:none
+}
+
+.cov-upsell4 {
+    background-image: url(../i/upsell-5.jpg);
+    background-size: cover;
+    z-index: 20 !important;
+    display:none
+}
+
+.cov-downsell {
+    background-image: url(../i/upsell-save.jpg);
+    background-size: cover;
+    z-index: 20 !important;
+    display:none
+}
+
+.covall {
+    z-index:10 !important
+}
+
+.fix-spacing {
+    margin:5px 0
+}
+
+.fix-padding {
+    margin:10px 0
+}
+
+.fix-title-out {
+    font-family: heebo, sans-serif;
+    line-height: 1;
+    text-shadow: 1px 1px #ccc;
+    padding:0 20px
+}
+
+.bblack {
+    border:1px solid #ccc
+}
+
+.bwhite {
+    border:1px solid #fff
+}
+
+.responsive-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow:hidden
+}
+
+.responsive-video iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0
+}
+
+.embed-container {
+    border: 2px solid #000;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width:100%
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%
+}
+
+.limit-width {
+    max-width:900px
+}
+
+.limit-width-video {
+    max-width:900px
+}
+
+.section {
+    padding:1.5rem .8rem
+}
+
+.title.is-1-main-title {
+    font-size:3.6rem
+}
+
+.buybutton {
+    display:none
+}
+
+.loading-gif {
+    background-image: url(../i/loading.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:top center
+}
+
+.price-reveal {
+    visibility:hidden
+}
+
+.has-margin-top {
+    margin-top:150px
+}
+
+.spacer {
+    margin-top: 35px;
+    height:1px
+}
+
+.rebill-clickbox {
+    cursor: pointer;
+    padding: 15px;
+    border:6px solid #fff
+}
+
+.rebill-clickbox-red {
+    border: 6px solid red !important;
+    border-radius: 12px !important;
+    background:#ffbfbf !important
+}
+
+.rebill-checkbox {
+    display: inline-block;
+    background: url(/i/checkbox.png) no-repeat center -50px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 3px;
+    font-size: 0;
+    vertical-align:top
+}
+
+.rebill-checkbox.rebill-checkbox-clicked {
+    background-position:center 0
+}
+
+.rebill-checkbox-animation {
+    animation: rebill-checkbox-animation .7s ease-in-out;
+    animation-iteration-count:infinite
+}
+
+@keyframes rebill-checkbox-animation {
+    0% {
+        transform:scale(1)
+    }
+
+    50% {
+        transform:scale(1.3)
+    }
+
+    100% {
+        transform:scale(1)
+    }
+}
+
+.rebill-checkbox2 {
+    display: inline-block;
+    background: url(/i/checkbox2.png) no-repeat center -32px;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 3px;
+    font-size: 0;
+    vertical-align:top
+}
+
+.rebill-checkbox2.rebill-checkbox2-clicked {
+    background-position:center 0
+}
+
+.rebill-checkbox2-animation {
+    animation: rebill-checkbox-animation .7s ease-in-out;
+    animation-iteration-count:infinite
+}
+
+@keyframes rebill-checkbox-animation {
+    0% {
+        transform:scale(1)
+    }
+
+    50% {
+        transform:scale(1.15)
+    }
+
+    100% {
+        transform:scale(1)
+    }
+}
+
+@media only screen and (min-device-width: 320px) and(max-device-width: 760px) and(orientation: landscape) {
+    .limit-width-video {
+        max-width:85%
+    }
+}
+
+@media only screen and (min-device-width: 761px) and(max-device-width: 960px) and(orientation: landscape) {
+    .limit-width-video {
+        max-width:75%
+    }
+}
+
+.exit-modal {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(35, 0, 130, .85)
+}
+
+.exit-modal .exit-modal-inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 800px;
+    margin:5vh auto 0
+}
+
+.exit-modal .exit-modal-inner .exit-box-container {
+    width: 800px;
+    height: 568px;
+    background-image: url(/i/fs-popup2.png);
+    background-repeat: no-repeat;
+    background-size:100% auto
+}
+
+.button-holders {
+    padding-top: 115px;
+    position:relative
+}
+
+.exit-modal-coupon {
+    background-image:url(/i7/coupon-c.png) !important
+}
+
+@media only screen and (max-width: 800px) {
+    #exitModal {
+    }
+
+    #exitModalText {
+    }
+}
+
+.closeButton {
+    z-index: 200;
+    background-image: url(/i/x.png);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    cursor:pointer
+}
+
+.discountTicket {
+    height: 285px;
+    position: absolute;
+    cursor:pointer
+}
+
+.ticket1 {
+    left: 330px;
+    padding-top: 20px;
+    transform:rotate(-30deg)
+}
+
+.ticket2 {
+    left: 410px;
+    padding-top: 10px;
+    transform:rotate(-15deg)
+}
+
+.ticket3 {
+    left: 500px;
+    transform:rotate(0deg)
+}
+
+.ticket4 {
+    left: 590px;
+    padding-top: 10px;
+    transform:rotate(15deg)
+}
+
+.ticket5 {
+    left: 670px;
+    padding-top: 20px;
+    transform:rotate(30deg)
+}
+
+.grow {
+    transition:all .2s ease-in-out
+}
+
+.grow:hover {
+    transform: scale(1.05);
+    z-index:200
+}
+
+.exit-modal .exit-modal-inner .exit-box-container-text {
+    width: 800px;
+    min-height: 500px;
+    background-image: url(/i/dim-popup.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color:#fff
+}
+
+.exit-modal .exit-modal-inner .exit-box-container-blank {
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    padding:14px
+}
+
+.textContainer {
+    padding-top:140px
+}
+
+.buttonstext {
+    padding:20px 10px 10px
+}
+
+.raleway {
+    font-family:raleway, sans-serif
+}
+
+.ba {
+    position: relative;
+    height: 255px;
+    width:275px
+}
+
+.ba img {
+    position:absolute
+}
+
+.ba img.bottom-ba {
+    animation:fadeba 5s infinite
+}
+
+@keyframes fadeba {
+    0% {
+        opacity:1
+    }
+
+    40% {
+        opacity:1
+    }
+
+    50% {
+        opacity:0
+    }
+
+    90% {
+        opacity:0
+    }
+
+    100% {
+        opacity:1
+    }
+}
+
+.letter-image {
+    display:block
+}
+
+a.button {
+    white-space: normal;
+    height:auto
+}
+
+body {
+    background:url(../i/fevb.jpg) repeat #360e9a
+}
+
+.heebo {
+    font-family:heebo, sans-serif
+}
+
+.footer {
+    background-color: #0e4e9a;
+    color:#72c3f1
+}
+
+.footer a {
+    color:#bde7ff
+}
+
+.footer hr {
+    background-color:#1a8dce
+}
+
+.top-purple, .top-purple .subpink {
+    color:#c8e3ff !important
+}
+
+.top-purple hr {
+    background-color:#66449a
+}
+
+.box-purple {
+    color: #deebfb;
+    background-color:#3c4aad
+}
+
+.box-purple hr {
+    background-color:#185da7
+}
+
+.box-purple .subtitle {
+    color:#deebfb
+}
+
+.footer a:hover {
+    color:#fff !important
+}
+
+@media only screen and (max-width: 950px) {
+    .cf7_custom_style_1 {
+        padding-left: 10%;
+        padding-right:10%
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cf7_custom_style_1 {
+        padding-left: 0;
+        padding-right:0
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    .bcont {
+        padding:15px !important
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .bcont {
+        padding:25px !important
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .bcont {
+        padding:40px !important
+    }
+}
+
+.vsl-title-fix {
+    line-height: 1;
+    text-shadow: 0 4px 3px rgba(0, 0, 0, .4), 0 8px 13px rgba(0, 0, 0, .1), 0 18px 23px rgba(0, 0, 0, .1);
+    font-size:110%
+}
+
+.one-edge-shadow {
+    box-shadow:0 8px 6px -6px #000
+}
+
+html {
+    background-color:#0e4e9a
+}
+
+.lh1 {
+    line-height:1
+}
+
+.sibling-fade {
+    visibility:hidden
+}
+
+.sibling-fade > * {
+    visibility:visible
+}
+
+.sibling-fade > * {
+    transition:opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms
+}
+
+.sibling-fade:hover > * {
+    opacity: .5;
+    transform:scale(1)
+}
+
+.sibling-fade > * :hover {
+    opacity: 1;
+    transform: scale(1.05);
+    transition-delay:0ms, 0ms
+}
+
+.grow {
+    transition:all .2s ease-in-out
+}
+
+.grow:hover {
+    transform: scale(1.35);
+    z-index:200
+}
+
+.has-text-purple {
+    color:#4d0d93
+}
+
+.small-spacer {
+    height:8px
+}
+
+.coupon-red, .coupon-red:focus, .coupon-red:hover {
+    border:solid 3px blue
+}
+
+.coupon-red {
+    text-transform: uppercase;
+    font-weight:700
+}
+
+.accordion-container {
+    position: relative;
+    width: 100%;
+    border: 1px solid purple;
+    border-top: none;
+    outline: 0;
+    cursor:pointer
+}
+
+.accordion-container .article-title {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: .625em .625em .625em 2em;
+    border-top: 1px solid purple;
+    font-size: 1.25em;
+    font-weight: 400;
+    color: purple;
+    cursor:pointer
+}
+
+.accordion-container .article-title:hover, .accordion-container .article-title:active, .accordion-container .content-entry.open .article-title {
+    background-color: purple;
+    color:#fff
+}
+
+.accordion-container .article-title:hover i:before, .accordion-container .article-title:hover i:active, .accordion-container .content-entry.open i {
+    color:#fff
+}
+
+.accordion-container .content-entry i {
+    position: absolute;
+    top: 3px;
+    left: 12px;
+    font-style: normal;
+    font-size: 1.625em;
+    color:purple
+}
+
+.accordion-container .content-entry i:before {
+    content: "+ "
+}
+
+.accordion-container .content-entry.open i:before {
+    content: "- "
+}
+
+.accordion-content {
+    display: none;
+    padding:20px
+}
+
+.bonusbox {
+    border:4px solid green
+}
+
+.block-readers strong {
+    color:inherit
+}
+
+.ap-readers strong {
+    color:inherit
+}
+
+.block-readers p {
+    line-height:1.2
+}
+
+.fix-title-out2 {
+    line-height: 1;
+    text-shadow: 1px 1px #000;
+    padding:0 20px
+}
+
+.highlightOp {
+    background: url(/i7/brush2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 95%;
+    padding:8px 0
+}
+
+.readers-version .is-pulled-left, .readers-version .is-pulled-right {
+    padding:10px
+}
+
+@media only screen and (max-width: 700px) {
+    .readers-version .is-pulled-left, .readers-version .is-pulled-right {
+        float:none !important
+    }
+}
+
+.rebill-clickbox {
+    cursor: pointer;
+    padding: 15px;
+    border:6px solid #fff
+}
+
+.rebill-checkbox2 {
+    display: inline-block;
+    background: url(/i/cb3.png) no-repeat center -32px;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 3px;
+    font-size: 0;
+    vertical-align:top
+}
+
+.rebill-checkbox2.rebill-checkbox2-clicked {
+    background-position:center 0
+}
+
+.rebill-checkbox2-animation {
+    animation: rebill-checkbox-animation .7s ease-in-out;
+    animation-iteration-count:infinite
+}
+
+@keyframes rebill-checkbox-animation {
+    0% {
+        transform:scale(1)
+    }
+
+    50% {
+        transform:scale(1.15)
+    }
+
+    100% {
+        transform:scale(1)
+    }
+}
+
+.strikeout {
+    position:relative
+}
+
+.strikeout::after {
+    border-bottom: .125em solid red;
+    content: "";
+    left: 0;
+    margin-top: calc(0.125em/2 * -1);
+    position: absolute;
+    right: 0;
+    top: 50%
+}
+
+
