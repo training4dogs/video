@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-		<title>Every Morning 160,000 People Use This "Odd 5-Second Water Hack" That 92% of Women Have No Idea It Exists</title>
+		<title>1 Every Morning 160,000 People Use This "Odd 5-Second Water Hack" That 92% of Women Have No Idea It Exists</title>
 <link rel='dns-prefetch' href='//s.w.org' />
 <link rel="alternate" type="application/rss+xml" title="Higher Quality of Life &raquo; Feed" href="https://higherqualityoflife.online/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Higher Quality of Life &raquo; Comments Feed" href="https://higherqualityoflife.online/comments/feed/" />
@@ -74,19 +74,21 @@ img.emoji {
 	
 	<style>
 	
-		#showMe {
-  			animation: cssAnimation 0s 5s forwards;
-		}
-
-		@keyframes cssAnimation {
-  			to   { display: none;}
+		.hideMe {
+  			display: none;
 		}
 	
 	</style>	
 	
 	
 	
+	<script>
 	
+	setTimeout(function(){
+ 		document.getElementById('temp').classList.remove('hideMe');
+ 	}, 5000);
+	
+	</script>
 	
 	
 	</head>
@@ -138,7 +140,10 @@ img.emoji {
 		
 			
 				<section class="elementor-element elementor-element-db4f346 elementor-hidden-phone elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="db4f346" data-element_type="section">
-				<div id="showMe" class="elementor-container elementor-column-gap-default">
+				
+				<div id="temp" class="hideMe">
+				
+				<div class="elementor-container elementor-column-gap-default">
 				<div class="elementor-row">
 				<div class="elementor-element elementor-element-4a729c2 elementor-column elementor-col-20 elementor-top-column" data-id="4a729c2" data-element_type="column">
 			<div class="elementor-column-wrap">
@@ -190,6 +195,9 @@ img.emoji {
 		</div>
 						</div>
 			</div>
+			
+			
+				</div>
 		</section>
 		
 		
@@ -1006,3 +1014,4 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 	</script>
 		</body>
 </html>
+
